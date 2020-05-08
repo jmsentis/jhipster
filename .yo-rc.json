@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "cat.dipta.jhipster",
+      "nativeLanguage": "ca"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "demohipster",
+    "packageName": "cat.dipta.jhipster",
+    "packageFolder": "cat/dipta/jhipster",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "oracle",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTliZGQ1ZmFlNzIzMDc5MDFmYjgwMmY1MDhmNjQwOWQyMmU3ZWNmZTBkZGFmOTZiNTlmMzQ2ZTFjZjk1YjkyZWQwNzMyZDM4MzJiMjM3MWVhOGNkZDAzMGVkNzY5ZjRmZmQwYzExOWNlZDc0Y2YzZDljZjllNmI3MDQ5ZmJiYmY=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "cerulean",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1588764510292,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ca",
+    "languages": ["ca", "en", "es"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ]
+  }
+}
